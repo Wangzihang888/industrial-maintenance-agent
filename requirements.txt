@@ -1,0 +1,30 @@
+
+# ============================================================
+# Industrial Maintenance Agent
+# Python 3.10.11
+# ============================================================
+
+# FastAPI / HTTP
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.13.5
+httpx==0.28.1
+requests==2.34.2
+
+# LangGraph / LLM
+langgraph==1.2.11
+langgraph-checkpoint-sqlite==3.1.1
+langchain-core==1.6.3
+langchain-openai==1.6.2
+openai==3.13.0
+
+# RAG / Vector Retrieval
+qdrant-client==1.19.1
+rank-bm25==0.2.2
+jieba==0.42.1
+pymupdf==1.28.2
+numpy==2.2.6
+tiktoken==0.14.0
+
+# Environment Configuration
+python-dotenv==1.2.3

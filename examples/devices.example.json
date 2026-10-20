@@ -1,0 +1,43 @@
+
+{
+  "RB-001": {
+    "device_id": "RB-001",
+    "device_name": "Industrial Robot 001",
+    "device_type": "robot",
+    "status": "running",
+    "temperature": 53.0,
+    "temperature_warning": 65.0,
+    "temperature_limit": 75.0,
+    "current_alarm": null
+  },
+  "RB-002": {
+    "device_id": "RB-002",
+    "device_name": "Industrial Robot 002",
+    "device_type": "robot",
+    "status": "running",
+    "temperature": 53.0,
+    "temperature_warning": 65.0,
+    "temperature_limit": 75.0,
+    "current_alarm": null
+  },
+  "RGV-001": {
+    "device_id": "RGV-001",
+    "device_name": "Rail Guided Vehicle 001",
+    "device_type": "rgv",
+    "status": "running",
+    "temperature": 53.0,
+    "temperature_warning": 60.0,
+    "temperature_limit": 70.0,
+    "current_alarm": null
+  },
+  "RB-003": {
+    "device_id": "RB-003",
+    "device_name": "Industrial Robot 003",
+    "device_type": "robot",
+    "status": "running",
+    "temperature": 53.0,
+    "temperature_warning": 65.0,
+    "temperature_limit": 75.0,
+    "current_alarm": null
+  }
+}

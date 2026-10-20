@@ -1,0 +1,77 @@
+
+# ============================================================
+# Industrial Maintenance Agent - Git Ignore
+# ============================================================
+
+
+# 1. Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# 2. Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# 3. Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Test and analysis caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# 5. Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-shm
+*.sqlite3-wal
+
+# 6. Project runtime data
+# Temporarily exclude all data until reviewed.
+data/
+
+# 7. Qdrant local storage
+**/qdrant/storage/
+**/qdrant/snapshots/
+
+# 8. Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# 9. Local backups and archives
+*.zip
+scripts_backup_*/
+backup/
+backups/
+
+# 10. IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 11. Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
